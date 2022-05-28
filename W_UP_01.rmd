@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
 author: "Teresa Juan"
-date: "Summer 2020"
+date: "Summer 2022"
 output: html_document
 ---
 
@@ -44,11 +44,17 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 boxplot(pushups~position,data=mydata)
 ```
 
-looks to me the line players are doing less pushups then the players.
+looks to me the line players are doing less pushups then the skill players.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+line players are doing 17 pushups and the skill players are doing 50 push ups, looks like the skill players on the average do three times more  pushups then the line players.
 
 ## Inferential Results
 
