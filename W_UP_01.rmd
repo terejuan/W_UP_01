@@ -63,9 +63,9 @@ line players are doing 17 pushups and the skill players are doing 50 push ups, l
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
+The chances of seeing a result like this if there is really no difference between how many pushups your average line players can do compare to your average skill player. Between the line players and the skill players is .000009421 this is a small number showing us there isn't really a big difference.
 
 # Discussion and Conclusion
 
-The chances of seeing a result like this if there is really no difference between how many pushups your average line players can do compare to your average skill player. Between the line players and the skill players is .000009421 this is a small number showing us there isn't really a big difference.
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
